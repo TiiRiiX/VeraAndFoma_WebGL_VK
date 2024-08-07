@@ -30,6 +30,7 @@
     <type fullname="ItemUICard" preserve="all" />
     <type fullname="LanguageTextManager" preserve="all" />
     <type fullname="LevelEndInteraction" preserve="all" />
+    <type fullname="LevelStartInteraction" preserve="all" />
     <type fullname="LocationCharacter" preserve="all" />
     <type fullname="LocationConditionUIElement" preserve="all" />
     <type fullname="LocationController" preserve="all" />
@@ -79,7 +80,6 @@
     <type fullname="SkyMovement" preserve="all" />
     <type fullname="SortCard" preserve="all" />
     <type fullname="SortCardView" preserve="all" />
-    <type fullname="SortGameController" preserve="all" />
     <type fullname="SortGameLevelData" preserve="all" />
     <type fullname="SoundInteraction" preserve="all" />
     <type fullname="SoundSettingsController" preserve="all" />
@@ -92,7 +92,6 @@
     <type fullname="StealthLevelData" preserve="all" />
     <type fullname="StealthPlayer" preserve="all" />
     <type fullname="StealthPoint" preserve="all" />
-    <type fullname="SwipeDetector" preserve="all" />
     <type fullname="SwitchLocationInteraction" preserve="all" />
     <type fullname="TaskUIController" preserve="all" />
     <type fullname="Traps.Trap" preserve="all" />
@@ -141,6 +140,10 @@
     <type fullname="Cinemachine.CinemachineVirtualCameraBase/TransitionParams" preserve="nothing" serialized="true" />
     <type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Coffee.SoftMaskForUGUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UISoftMask.SoftMask" preserve="all" />
+    <type fullname="Coffee.UISoftMask.SoftMaskable" preserve="all" />
+  </assembly>
   <assembly fullname="SALSA-LipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CrazyMinnow.SALSA.QueueProcessor" preserve="all" />
     <type fullname="CrazyMinnow.SALSA.Salsa" preserve="all" />
@@ -168,6 +171,7 @@
     <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
