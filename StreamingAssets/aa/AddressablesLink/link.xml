@@ -99,23 +99,23 @@
     <type fullname="VersionText" preserve="all" />
     <type fullname="VerticalMoveAnimatedUIScreen" preserve="all" />
     <type fullname="CharacterInfo/OverrideAvatar" preserve="nothing" serialized="true" />
-    <type fullname="CharactersScreenUIController/CharacterCards" preserve="nothing" serialized="true" />
     <type fullname="CollectItemInteraction/ItemCount" preserve="nothing" serialized="true" />
-    <type fullname="DelayActionScene/DelayActionType" preserve="nothing" serialized="true" />
-    <type fullname="ItemsManager/CraftRecipe" preserve="nothing" serialized="true" />
     <type fullname="LanguageTextManager/StageText" preserve="nothing" serialized="true" />
     <type fullname="LanguageTextManager/TextIdData" preserve="nothing" serialized="true" />
+    <type fullname="MapContainer/TutorialHandIndex" preserve="nothing" serialized="true" />
+    <type fullname="StageData/Task" preserve="nothing" serialized="true" />
+    <type fullname="CharactersScreenUIController/CharacterCards" preserve="nothing" serialized="true" />
+    <type fullname="DelayActionScene/DelayActionType" preserve="nothing" serialized="true" />
+    <type fullname="ItemsManager/CraftRecipe" preserve="nothing" serialized="true" />
     <type fullname="LocationController/HidePlayerCharacterCondition" preserve="nothing" serialized="true" />
     <type fullname="LocationItem/InteractCheck" preserve="nothing" serialized="true" />
     <type fullname="LocationItem/InteractionAction" preserve="nothing" serialized="true" />
-    <type fullname="MapContainer/TutorialHandIndex" preserve="nothing" serialized="true" />
-    <type fullname="StageData/Task" preserve="nothing" serialized="true" />
     <type fullname="MatchPlaceGameData/CardContainer" preserve="nothing" serialized="true" />
     <type fullname="MatchPlaceGameData/CardType" preserve="nothing" serialized="true" />
     <type fullname="MatchLevelData/Answer" preserve="nothing" serialized="true" />
     <type fullname="MatchLevelData/Stage" preserve="nothing" serialized="true" />
-    <type fullname="LocationSpineStateChager/State" preserve="nothing" serialized="true" />
     <type fullname="BranchCondition" preserve="nothing" serialized="true" />
+    <type fullname="LocationSpineStateChager/State" preserve="nothing" serialized="true" />
     <type fullname="StealthGameController/LinkedPoints" preserve="nothing" serialized="true" />
     <type fullname="SequenceContainer/CorrectSequence" preserve="nothing" serialized="true" />
     <type fullname="AltaiRunMinigame.ChangeLevelStateView" preserve="nothing" serialized="true" />
@@ -210,12 +210,13 @@
     <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.AudioPlayableAsset" preserve="all" />
     <type fullname="UnityEngine.Timeline.AudioTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalEmitter" preserve="all" />
     <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AudioClipProperties" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.AudioMixerProperties" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Timeline.AudioClipProperties" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Timeline.AudioMixerProperties" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
@@ -288,9 +289,9 @@
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
